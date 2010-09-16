@@ -1,0 +1,8 @@
+bin
+.classpath
+ws
+.build64
+.buildas
+de.compeople.scp.swt.qt-*.jar
+de.compeople.scp.swt.qt-source*.zip
+org.eclipse.swt.*.jar
