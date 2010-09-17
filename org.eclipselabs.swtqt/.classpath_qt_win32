@@ -31,8 +31,8 @@
 	<classpathentry kind="src" path="Eclipse SWT Mozilla/qt_win32"/>
 	<classpathentry kind="src" path="Eclipse SWT OpenGL/common"/>
 	<classpathentry kind="src" path="Eclipse SWT OpenGL/qt_win32"/>
-	<classpathentry kind="src" path="Eclipse SWT Theme/win32"/>
+	<classpathentry kind="src" path="Eclipse SWT Theme/emulated"/>
 	<classpathentry kind="lib" path="extra_jars/exceptions.jar"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/de.compeople.scp.swt.qt.win32.x86"/>
+	<classpathentry kind="lib" path="/org.eclipselabs.swtqt.bundles/qtjambi-4.5.2_01_osgipatch.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
