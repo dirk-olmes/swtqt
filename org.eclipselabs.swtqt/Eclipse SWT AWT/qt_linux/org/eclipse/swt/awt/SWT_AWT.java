@@ -65,23 +65,6 @@ public class SWT_AWT {
 
 	static native final void setDebug(Frame canvas, boolean debug);
 
-	static synchronized void loadLibrary() {
-		if (loaded) {
-			return;
-		}
-		loaded = true;
-		/*
-		 * Note that the jawt library is loaded explicitly because it cannot be
-		 * found by the library loader. All exceptions are caught because the
-		 * library may have been loaded already.
-		 */
-		try {
-			System.loadLibrary("jawt");
-		} catch (Throwable e) {
-		}
-		Library.loadLibrary("swt-awt");
-	}
-
 	static synchronized void initializeSwing() {
 		if (swingInitialized) {
 			return;
@@ -202,7 +185,7 @@ public class SWT_AWT {
 		final Frame frame = (Frame) value;
 		parent.setData(EMBEDDED_FRAME_KEY, frame);
 		if (Device.DEBUG) {
-			loadLibrary();
+			//			loadLibrary();
 			setDebug(frame, true);
 		}
 		try {
@@ -224,7 +207,7 @@ public class SWT_AWT {
 									return;
 								}
 								Shell shell = parent.getShell();
-								loadLibrary();
+								//loadLibrary();
 								int /* long */awtHandle = getAWTHandle(window);
 								if (awtHandle == 0) {
 									return;
@@ -340,7 +323,7 @@ public class SWT_AWT {
 		}
 		int /* long */handle = 0;
 		try {
-			loadLibrary();
+			//loadLibrary();
 			handle = getAWTHandle(parent);
 		} catch (Throwable e) {
 			SWT.error(SWT.ERROR_NOT_IMPLEMENTED, e);
