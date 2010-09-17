@@ -1,0 +1,229 @@
+/* Custom Riena 2 */
+
+QWidget [widgetType="scrollareaContent"] {
+	background:  #CCCCCC;
+}
+
+swtqt--StylableScrollArea[widgetType="titleComposite"] QWidget[widgetType="scrollareaContent"] {
+	/*background-image: url(/workspace/de.compeople.scp.swt.qt.riena.addons/iscons/BannerGrauFrau2.png);*/
+	background-image: url(/projekte/swtqt/de.compeople.scp.swt.qt.riena.addons/icons/BannerGrauFrau2.png);
+}
+
+swtqt--StylableScrollArea[widgetType="titleSwitcher"] QWidget[widgetType="scrollareaContent"] {
+	background: transparent;
+}
+
+QGroupBox {
+	background: #CCCCCC;
+}
+
+*[mandatory='true'] {
+	background-color: qlineargradient(x1 : 0, y1 : 0, x2 : 0, y2 :   1, 
+                stop :   1.0 #f6ea3b,
+                stop : 0.9 #f6f674,
+                stop : 0.7 #f6f69f,
+		 		stop :  0.0 white);
+}
+
+*[error='true'] {
+	border: 2px solid red;
+	border-radius: 2px;
+}
+
+QMenu {
+	
+		background: qlineargradient(x1 : 0, y1 : 0, x2 : 0, y2 :   1, stop :   0.0 #f5f9ff,
+		 stop :   1.0 #d3d8ee);
+	}
+
+QMenu::item:selected {
+	background: qlineargradient(x1 : 0, y1 : 0, x2 : 0, y2 :   1, stop :   0.0 #CCCCC,
+	             stop :   1.0 #f5f9ff);
+	color:black;
+}
+
+QMenuBar {
+	background: qlineargradient(x1 : 0, y1 : 0, x2 : 0, y2 :   1, stop :   0.0 #f5f9ff,
+		 stop :   1.0 #d3d8ee);
+         color:black;
+ }
+
+qt--StylableLnf {
+    qproperty-embeddedTitleBarActiveBackgroundStartColor: #FFE167;
+    qproperty-embeddedTitleBarActiveBackgroundEndColor: #FECF07;
+    qproperty-embeddedTitleBarActiveBorderColor:#646464;
+    qproperty-subApplicationSwitcherActiveForeground:#646464;
+    qproperty-titlelessShellLogo: none;
+}
+
+QPushButton {
+	border: 1px solid #8993b2;
+	border-radius: 12px;
+	padding: 5px 15px 2px 5px;
+	background-color: qlineargradient(x1 :     0, y1 :     0, x2 :     0, y2 :     1, stop :
+		    1 #FECF07, stop :   0 #fcfcfe);
+}
+
+QPushButton::hover {
+	background-color: qlineargradient(x1 :     0, y1 :     0, x2 :     0, y2 :     1, stop :
+		    1 #fcfcfe, stop :   0 #FECF07);
+}
+
+QPushButton::checked {
+	background-color: qlineargradient(x1 :     0, y1 :     0, x2 :     0, y2 :     1, stop :
+		    1 #fcfcfe, stop :   0 red);
+}
+
+QCheckBox {
+	background: #d3d8ee;
+	border: 2px solid 8690b0;
+	border-radius: 2px;
+	min-width: 6em;
+	spacing: 4px;
+}
+
+QRadioButton {
+	background: #CCCCCC;
+}
+
+QComboBox {
+	background: #fefefe;
+	border: 1px solid #8993b2;
+	border-radius: 0px;
+	padding: 0px 0px 0px 0px;
+	selection-background-color: #c8e6c9;
+	selection-color: #1e0f17;
+}
+
+QComboBox::drop-down {
+	subcontrol-origin: padding;
+	subcontrol-position: top right;
+	width: 16px;
+	border-left: 1px solid #8993b2;
+	border-radius: 0px;
+	padding: 0px 0px 0px 0px;
+	background-image: url(/projekte/swtqt/de.compeople.scp.swt.qt.advancedstyler/icons/dvag/dvag_arrow_down.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-color: qlineargradient(x1 :   0, y1 :   0, x2 :   0, y2 :   1, stop :   1
+		#c5cae6, stop : 
+		 0 #fcfcfe);
+}
+
+QLabel {
+	background-color: #CCCCCC;
+	color: #3b475d;
+	font: bold;
+}
+
+QListView {
+	border: 1px solid #8993b2;
+	border-radius: 1px #8993b2;
+	min-width: 6em;
+	padding: 0px 0px 0px 0px;
+	background: #fefefe;
+	color: #1e0f17;
+	selection-background-color: #c8e6c9;
+	selection-color: #1e0f17;
+}
+
+QTableView {
+	background: #fefefe;
+	border: 1px solid #8993b2;
+	border-radius: 1px #8993b2;
+	padding: 0px 0px 0px 0px;
+	min-width: 6em;
+	gridline-color: #cdd5eb;
+	selection-background-color: #c8e6c9;
+	selection-color: #1e0f17;
+}
+
+/* ######### Scrollbars ######################## */
+
+QScrollBar::add-page,QScrollBar::sub-page {
+	background: #e6e6ed;
+	border: 1px solid #6f7ea3;
+	border-radius: 0px;
+}
+
+QScrollBar:horizontal {
+	border: 0px;
+	border-radius: 0px;
+	background: qlineargradient(x1 :       0, y1 :       0, x2 :       0, y2 :       1,
+		stop : 
+		     0 #a1a8c5, stop :       1 #8a93b4);
+}
+
+QScrollBar:vertical {
+	border: 0px;
+	border-radius: 0px;
+	background: qlineargradient(x1 :       0, y1 :       0, x2 :       0, y2 :       1,
+		stop : 
+		     0 #a1a8c5, stop :       1 #8a93b4);
+}
+
+/* ######### / Scrollbars ######################## */
+
+
+QHeaderView {
+	border: 0px;
+	color: black;
+	background: qlineargradient(x1 :   0, y1 :   0, x2 :   0, y2 :   1, stop :   1
+		#8A8A8A, stop : 
+		 0 #fcfcfe);
+	height: 19px;
+}
+
+QHeaderView::section {
+	border: 0px;
+	background: qlineargradient(x1 :   0, y1 :   0, x2 :   0, y2 :   1, stop :   1
+		#8A8A8A, stop : 
+		 0 #fcfcfe);
+	height: 19px;
+}
+
+QTableCornerButton::section {
+	border: 0px;
+	background: qlineargradient(x1 :     0, y1 :     0, x2 :     0, y2 :     1, stop :
+		    0 #a1a8c5, stop :     1 #8a93b4);
+}
+QLineEdit {
+	background: #fefefe;
+	border: 1px solid #8993b2;
+	border-radius: 1px #8993b2;
+	min-width: 6em;
+	padding: 0 px;
+	selection-background-color: #c8e6c9;
+	selection-color: #1e0f17;
+}
+
+QTreeWidget {
+	background: #fefefe;
+	border: 1px solid #8993b2;
+	border-radius: 1px #8993b2;
+	padding: 0px 0px 0px 0px;
+	min-width: 6em;
+	gridline-color: #cdd5eb;
+	selection-background-color: #c8e6c9;
+	selection-color: #1e0f17;
+}
+
+
+
+/* ######### Branches ############## */
+QTreeWidget::branch:has-children:  !has-siblings:closed,QTreeWidget::branch:closed:has-children:has-siblings
+	{
+	border-image: none;
+	image: url(/projekte/swtqt/de.compeople.scp.swt.qt.advancedstyler/icons/dvag/branch-closed.png);
+}
+
+QTreeWidget::branch:open:has-children:  !has-siblings,QTreeWidget::branch:open:has-children:has-siblings
+	{
+	border-image: none;
+	image: url(/projekte/swtqt/de.compeople.scp.swt.qt.advancedstyler/icons/dvag/branch-open.png);
+}
+
+QTreeWidget::branch {
+	background: none;
+	border: 0px;
+}

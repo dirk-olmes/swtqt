@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jardesc>
+    <jar path="org.eclipselabs.swtqt/org.eclipse.swt_3.5.2.v3557f.jar"/>
+    <options buildIfNeeded="true" compress="true" descriptionLocation="/org.eclipselabs.swtqt/swtqt-win32.jardesc" exportErrors="false" exportWarnings="true" includeDirectoryEntries="false" overwrite="true" saveDescription="true" storeRefactorings="false" useSourceFolders="false"/>
+    <storedRefactorings deprecationInfo="true" structuralOnly="false"/>
+    <selectedProjects/>
+    <manifest generateManifest="false" manifestLocation="/org.eclipselabs.swtqt/META-INF/MANIFEST.MF" manifestVersion="1.0" reuseManifest="false" saveManifest="false" usesManifest="true">
+        <sealing sealJar="false">
+            <packagesToSeal/>
+            <packagesToUnSeal/>
+        </sealing>
+    </manifest>
+    <selectedElements exportClassFiles="true" exportJavaFiles="false" exportOutputFolder="false">
+        <javaElement handleIdentifier="=org.eclipselabs.swtqt/Eclipse SWT Drag and Drop\/qt"/>
+        <javaElement handleIdentifier="=org.eclipselabs.swtqt/Eclipse SWT OpenGL\/qt_win32&lt;org.eclipse.swt.internal.opengl.win32"/>
+        <javaElement handleIdentifier="=org.eclipselabs.swtqt/Eclipse SWT Accessibility\/emulated"/>
+        <javaElement handleIdentifier="=org.eclipselabs.swtqt/Eclipse SWT Browser\/qt"/>
+        <javaElement handleIdentifier="=org.eclipselabs.swtqt/Eclipse SWT\/common&lt;org.eclipse.swt.events"/>
+        <javaElement handleIdentifier="=org.eclipselabs.swtqt/Eclipse SWT Program\/common"/>
+        <javaElement handleIdentifier="=org.eclipselabs.swtqt/Eclipse SWT Mozilla\/common&lt;org.eclipse.swt.browser"/>
+        <javaElement handleIdentifier="=org.eclipselabs.swtqt/Eclipse SWT OLE Win32\/qt_win32"/>
+        <javaElement handleIdentifier="=org.eclipselabs.swtqt/Eclipse SWT AWT\/common"/>
+        <javaElement handleIdentifier="=org.eclipselabs.swtqt/Eclipse SWT\/common&lt;org.eclipse.swt.graphics"/>
+        <javaElement handleIdentifier="=org.eclipselabs.swtqt/Eclipse SWT Printing\/common"/>
+        <javaElement handleIdentifier="=org.eclipselabs.swtqt/Eclipse SWT Drag and Drop\/common"/>
+        <javaElement handleIdentifier="=org.eclipselabs.swtqt/Eclipse SWT Mozilla\/qt_win32"/>
+        <javaElement handleIdentifier="=org.eclipselabs.swtqt/Eclipse SWT Mozilla\/common&lt;org.eclipse.swt.internal.mozilla.init"/>
+        <javaElement handleIdentifier="=org.eclipselabs.swtqt/Eclipse SWT Theme\/emulated"/>
+        <javaElement handleIdentifier="=org.eclipselabs.swtqt/Eclipse SWT\/common&lt;org.eclipse.swt.internal"/>
+        <javaElement handleIdentifier="=org.eclipselabs.swtqt/Eclipse SWT\/common&lt;org.eclipse.swt.internal.image"/>
+        <javaElement handleIdentifier="=org.eclipselabs.swtqt/Eclipse SWT\/emulated\/graphics"/>
+        <javaElement handleIdentifier="=org.eclipselabs.swtqt/Eclipse SWT Printing\/qt_win32"/>
+        <javaElement handleIdentifier="=org.eclipselabs.swtqt/Eclipse SWT\/emulated\/ime"/>
+        <javaElement handleIdentifier="=org.eclipselabs.swtqt/Eclipse SWT OpenGL\/qt_win32&lt;org.eclipse.swt.opengl"/>
+        <javaElement handleIdentifier="=org.eclipselabs.swtqt/Eclipse SWT Custom Widgets\/common"/>
+        <javaElement handleIdentifier="=org.eclipselabs.swtqt/Eclipse SWT\/emulated\/bidi"/>
+        <javaElement handleIdentifier="=org.eclipselabs.swtqt/Eclipse SWT Browser\/common"/>
+        <javaElement handleIdentifier="=org.eclipselabs.swtqt/Eclipse SWT OpenGL\/common"/>
+        <javaElement handleIdentifier="=org.eclipselabs.swtqt/Eclipse SWT\/emulated\/coolbar"/>
+        <javaElement handleIdentifier="=org.eclipselabs.swtqt/Eclipse SWT\/qt"/>
+        <javaElement handleIdentifier="=org.eclipselabs.swtqt/Eclipse SWT Mozilla\/common&lt;org.eclipse.swt.internal.mozilla"/>
+        <javaElement handleIdentifier="=org.eclipselabs.swtqt/Eclipse SWT Accessibility\/common"/>
+        <javaElement handleIdentifier="=org.eclipselabs.swtqt/Eclipse SWT PI\/common_j2se"/>
+        <javaElement handleIdentifier="=org.eclipselabs.swtqt/Eclipse SWT\/emulated\/textlayout"/>
+        <javaElement handleIdentifier="=org.eclipselabs.swtqt/Eclipse SWT\/common&lt;org.eclipse.swt"/>
+        <javaElement handleIdentifier="=org.eclipselabs.swtqt/Eclipse SWT AWT\/qt_win32&lt;org.eclipse.swt.awt"/>
+        <javaElement handleIdentifier="=org.eclipselabs.swtqt/Eclipse SWT PI\/common&lt;org.eclipse.swt.internal"/>
+        <javaElement handleIdentifier="=org.eclipselabs.swtqt/Eclipse SWT\/emulated\/expand"/>
+        <javaElement handleIdentifier="=org.eclipselabs.swtqt/Eclipse SWT\/common_j2se"/>
+        <javaElement handleIdentifier="=org.eclipselabs.swtqt/Eclipse SWT\/common&lt;org.eclipse.swt.widgets"/>
+        <javaElement handleIdentifier="=org.eclipselabs.swtqt/Eclipse SWT\/common&lt;org.eclipse.swt.layout"/>
+    </selectedElements>
+</jardesc>

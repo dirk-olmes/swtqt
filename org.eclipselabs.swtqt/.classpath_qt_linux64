@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5"/>
+	<classpathentry kind="src" path="Eclipse SWT/qt"/>
+	<classpathentry kind="src" path="Eclipse SWT/qt_linux"/>
+	<classpathentry kind="src" path="Eclipse SWT/common"/>
+	<classpathentry kind="src" path="Eclipse SWT/common_j2se"/>
+	<classpathentry kind="src" path="Eclipse SWT/emulated/bidi"/>
+	<classpathentry kind="src" path="Eclipse SWT/emulated/coolbar"/>
+	<classpathentry kind="src" path="Eclipse SWT/emulated/expand"/>
+	<classpathentry kind="src" path="Eclipse SWT/emulated/ime"/>
+	<classpathentry kind="src" path="Eclipse SWT/emulated/textlayout"/>
+	<classpathentry kind="src" path="Eclipse SWT/emulated/graphics"/>
+	<classpathentry kind="src" path="Eclipse SWT PI/common_64"/>
+	<classpathentry kind="src" path="Eclipse SWT PI/qt_linux"/>
+	<classpathentry kind="src" path="Eclipse SWT PI/common_j2se_64"/>
+	<classpathentry kind="src" path="Eclipse SWT Accessibility/common"/>
+	<classpathentry kind="src" path="Eclipse SWT Accessibility/emulated"/>
+	<classpathentry kind="src" path="Eclipse SWT AWT/common"/>
+	<classpathentry kind="src" path="Eclipse SWT AWT/qt_linux"/>
+	<classpathentry kind="src" path="Eclipse SWT Drag and Drop/qt"/>
+	<classpathentry kind="src" path="Eclipse SWT Drag and Drop/common"/>
+	<classpathentry kind="src" path="Eclipse SWT Printing/common"/>
+	<classpathentry kind="src" path="Eclipse SWT Printing/qt_linux"/>
+	<classpathentry kind="src" path="Eclipse SWT Program/common"/>
+	<classpathentry kind="src" path="Eclipse SWT Program/emulated"/>
+	<classpathentry kind="src" path="Eclipse SWT Custom Widgets/common"/>
+	<classpathentry kind="src" path="Eclipse SWT Browser/common"/>
+	<classpathentry kind="src" path="Eclipse SWT Browser/qt"/>
+	<classpathentry kind="src" path="Eclipse SWT Mozilla/common_64"/>
+	<classpathentry kind="src" path="Eclipse SWT Mozilla/qt_linux"/>
+	<classpathentry kind="src" path="Eclipse SWT OpenGL/qt_linux"/>
+	<classpathentry kind="src" path="Eclipse SWT OpenGL/glx_64"/>
+	<classpathentry kind="src" path="Eclipse SWT OpenGL/common"/>
+	<classpathentry kind="src" path="Eclipse SWT Theme/emulated"/>
+	<classpathentry kind="lib" path="extra_jars/exceptions.jar"/>
+	<classpathentry kind="lib" path="/org.eclipselabs.swtqt.bundles/qtjambi-4.5.2_01_osgipatch.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

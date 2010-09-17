@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension point="org.eclipse.ui.commands">
+      <command
+            defaultHandler="org.eclipselabs.swtqt.advancedstyler.AdvancedStylerCommand"
+            id="org.eclipselabs.swtqt.advancedstyler.AdvancedStyler"
+            name="ApplyStyler">
+      </command>
+   </extension>
+   <extension
+         point="org.eclipse.ui.menus">
+      <menuContribution locationURI="toolbar:org.eclipse.ui.main.toolbar?after=additions">
+         <toolbar id="org.eclipselabs.swtqt.advancedstyler.toolbar">
+            <command
+                  commandId="org.eclipselabs.swtqt.advancedstyler.AdvancedStyler"
+                  icon="icons/paintbrush_small.png"
+                  id="AdvancedStyler"
+                  label="AdvancedStyler"
+                  style="push">
+            </command>
+         </toolbar>
+      </menuContribution>
+		<menuContribution locationURI="menu:edit?after=additions">
+            <command
+                  commandId="org.eclipselabs.swtqt.advancedstyler.AdvancedStyler"
+                  icon="icons/paintbrush_small.png"
+                  id="AdvancedStyler"
+                  label="AdvancedStyler"
+                  style="push">
+            </command>
+		</menuContribution>
+   </extension>
+</plugin>
