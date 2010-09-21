@@ -372,37 +372,24 @@ public final class Printer extends Device {
 	 * @return the platform specific GC handle
 	 */
 	@Override
-	public int /* long */internal_new_GC(GCData data) {
-		if (isDisposed()) {
-			SWT.error(SWT.ERROR_GRAPHIC_DISPOSED);
-		}
-		NSAutoreleasePool pool = null;
-		if (!NSThread.isMainThread()) {
-			pool = (NSAutoreleasePool) new NSAutoreleasePool().alloc().init();
-		}
-		try {
-			if (data != null) {
-				if (isGCCreated) {
-					SWT.error(SWT.ERROR_INVALID_ARGUMENT);
-				}
-				data.device = this;
-				data.background = getSystemColor(SWT.COLOR_WHITE).handle;
-				data.foreground = getSystemColor(SWT.COLOR_BLACK).handle;
-				data.font = getSystemFont();
-				float scaling = scalingFactor();
-				Point dpi = getDPI(), screenDPI = getIndependentDPI();
-				NSSize size = printInfo.paperSize();
-				size.width = size.width * (dpi.x / screenDPI.x) / scaling;
-				size.height = size.height * dpi.y / screenDPI.y / scaling;
-				data.size = size;
-				isGCCreated = true;
-			}
-			return operation.context().id;
-		} finally {
-			if (pool != null) {
-				pool.release();
-			}
-		}
+	public QPaintDeviceInterface internal_new_GC(GCData data) {
+		return null;
+		/*
+		 * if (isDisposed()) { SWT.error(SWT.ERROR_GRAPHIC_DISPOSED); }
+		 * NSAutoreleasePool pool = null; if (!NSThread.isMainThread()) { pool =
+		 * (NSAutoreleasePool) new NSAutoreleasePool().alloc().init(); } try {
+		 * if (data != null) { if (isGCCreated) {
+		 * SWT.error(SWT.ERROR_INVALID_ARGUMENT); } data.device = this;
+		 * data.background = getSystemColor(SWT.COLOR_WHITE).handle;
+		 * data.foreground = getSystemColor(SWT.COLOR_BLACK).handle; data.font =
+		 * getSystemFont(); float scaling = scalingFactor(); Point dpi =
+		 * getDPI(), screenDPI = getIndependentDPI(); NSSize size =
+		 * printInfo.paperSize(); size.width = size.width * (dpi.x /
+		 * screenDPI.x) / scaling; size.height = size.height * dpi.y /
+		 * screenDPI.y / scaling; data.size = size; isGCCreated = true; } return
+		 * operation.context().id; } finally { if (pool != null) {
+		 * pool.release(); } }
+		 */
 	}
 
 	@Override
