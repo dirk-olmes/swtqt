@@ -1,0 +1,2 @@
+### 32/64 bit ###
+The main SWT/Qt implementation is not 32 or 64 bit specific. Only the native part (Qt and Qt Jambi is platform and architecture specific. Due to some remains of the original SWT implementation, we need to provide platform specific bundles.
